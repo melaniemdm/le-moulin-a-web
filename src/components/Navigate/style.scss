@@ -1,0 +1,58 @@
+
+.vide{
+   height: 10px;
+   color: red; 
+}
+.navigate{
+    
+    display: flex;
+justify-content: center;
+  flex-wrap: wrap;
+  align-items:center;
+}
+div.container
+{
+     font-family: courier;
+    margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+}
+/* transparence  */
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+      margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+.lime
+{
+    background: #2C5388;
+}
+
+
+
+/* Pull up  */
+div.pullUp a:before
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+div.pullUp a:hover:before
+{
+    height: 100%;
+}
+
