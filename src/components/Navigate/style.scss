@@ -5,17 +5,19 @@
 }
 .navigate{
     
-    display: flex;
+display: flex;
 justify-content: center;
   flex-wrap: wrap;
   align-items:center;
 }
 div.container
 {
-     font-family: courier;
-    margin: 0 auto;
-	padding: 5em 3em;
-	text-align: center;
+    font-family: courier;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   	text-align: center;
 }
 /* transparence  */
 div.container a
@@ -32,7 +34,8 @@ div.container a
 
 .lime
 {
-    background: #2C5388;
+    background: #081f46;
+    height: 120px;
 }
 
 
