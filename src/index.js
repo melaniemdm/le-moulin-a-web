@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './style/style.scss';
 import Header from "./components/Header";
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from "react-router-dom";
 import Presentation from './components/Presentation';
 import Bandeau from './components/Bando';
 import Number from './components/Number';
+import Realisations from './components/Realisations';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     <Header />
     <Bandeau/>
     <Number/>
-    <Presentation/>
+   <Presentation/>
+    <Realisations/>
     </Router>
   </React.StrictMode>
 );

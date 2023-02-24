@@ -1,0 +1,78 @@
+.realist{
+    display: flex;
+    justify-content: center;
+}
+.containerRea{
+    position: absolute;
+background-color: #081f46;
+height: 1000px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 20px;
+}
+.realisationTitle{
+    color: white;
+    margin-left: 100px;
+}
+.rea1{
+    position: relative;
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    
+}
+.rea2{
+    background-color: rgb(0, 255, 81);
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+}
+.rea3{
+    background-color: rgb(208, 242, 144);
+    width: 240px;
+    height: 400px;
+    margin-top: 220px;
+    margin-left: -345px;
+}
+.rea4{
+    background-color: rgb(231, 197, 30);
+    width: 300px;
+    height: 300px;
+    margin-top: 220px;
+}
+.rea5{
+    background-color: rgb(24, 22, 22);
+    width: 300px;
+    margin: 20px;
+}
+.rea6{
+    background-color: rgb(40, 80, 37);
+    width: 200px;
+    height: 300px;
+    margin-top: -50px;
+}
+.rea7{
+    background-color: rgb(255, 0, 208);
+    width: 200px;
+    height: 200px;
+}
+.rea8{
+    background-color: rgb(171, 116, 147);
+    width: 200px;
+    height: 200px;
+}
+.rea9{
+    background-color: rgb(37, 4, 4);
+    width: 200px;
+    height: 100px;
+}
+.rea10{
+    background-color: red;
+    width: 100px;
+    height: 200px;
+}
+.reaTitle{
+    font-weight: 100;
+}
+
