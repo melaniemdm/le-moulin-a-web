@@ -1,0 +1,33 @@
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerPresentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 700px;
+    height:500px
+}
+
+.containerImg{
+    background-color: rgb(143, 143, 235);
+    height: 400px;
+    width: 250rem;
+   
+}
+h1{
+    font-family: 'Courier Prime', monospace;
+    text-decoration: underline;
+
+}
+.containerPresentationTexte{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+

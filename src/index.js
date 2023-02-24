@@ -4,12 +4,18 @@ import './index.css';
 import Header from "./components/Header";
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from "react-router-dom";
+import Presentation from './components/Presentation';
+import Bandeau from './components/Bando';
+import Number from './components/Number';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
     <Header />
+    <Bandeau/>
+    <Number/>
+    <Presentation/>
     </Router>
   </React.StrictMode>
 );
