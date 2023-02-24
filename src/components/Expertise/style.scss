@@ -1,0 +1,32 @@
+.expertiseContainerGlobal{
+    height: 800px;
+}
+.expertiseTitle{
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.expertiseDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.expertise1{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color:#fce3ce ;
+    width: 300px;
+    height: 200px;
+    border-radius: 40px 0 15px 0 ;
+    
+}
+.expertise1 div,.expertise1 h3{
+margin-left: 15px;
+margin-right: 15px;
+
+}
+.expertiseTitleDetail{
+    padding-top: 15px;
+}

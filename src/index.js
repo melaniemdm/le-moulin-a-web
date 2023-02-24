@@ -8,6 +8,9 @@ import Presentation from './components/Presentation';
 import Bandeau from './components/Bando';
 import Number from './components/Number';
 import Realisations from './components/Realisations';
+import Prestations from './components/Prestations';
+import Expertise from './components/Expertise';
+import Reference from './components/Reference';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +21,9 @@ root.render(
     <Number/>
    <Presentation/>
     <Realisations/>
+    <Prestations/>
+    <Expertise/>
+    <Reference/>
     </Router>
   </React.StrictMode>
 );

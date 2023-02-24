@@ -1,0 +1,34 @@
+.containerPrestations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 655px;
+    padding: 30px;
+}
+.containerListPresta{
+   position: relative;
+   }
+
+.listPresta{
+    
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.triangleBleuPresta1{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 90px;
+    margin-left: -500px;
+   margin-top: -250px;
+}
+.triangleBleuPresta2{
+    position: absolute;
+    transform: rotate(225deg);
+    width: 150px;
+    margin-bottom: -250px;
+    margin-right: -410px;
+}
