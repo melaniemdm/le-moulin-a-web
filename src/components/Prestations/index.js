@@ -15,9 +15,9 @@ export default function Prestations(){
             <li>Outils de communication - Affiches - Brochures</li>
             <li><strong>Et / ou Web :</strong> infigraphie - Newsletter - Bannière pub</li></ul>
             <h3>Site internet</h3>
-           
-            <div>Web Design - Développement - Integration</div> 
-            <ul>
+           <ul>
+            <li>Web Design - Développement - Integration</li> 
+            <ul></ul>
             <li>Referencement - Suivi & modiufications (et / ou formation)</li></ul>
         </div>
         </div>
