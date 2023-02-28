@@ -1,50 +1,60 @@
-.containerNumberEnsemble{
-    display: flex;
-    justify-content: center;
-    height: 300px;
-   background-color: white;
+@import "../../style/communs.scss";
+.containerNumberEnsemble {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-color: white;
 }
-.containerNumber{
-    //background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-      }
-      .number{
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-      }
-.rose{
-color:#e9afd0;
-font-weight: bold;
+.containerNumber {
+  //background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
-.violet{
-   color: #c2badd;
-   font-weight: bold; 
+.number {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
 }
-.blue{
-    color: #b9d2e2;
-    font-weight: bold; 
+.rose {
+  color: #e9afd0;
+  font-weight: bold;
 }
-      #triangle-code-rose{
-        margin: 20px;
-        display : inline-block;
-        height : 0;
-        width : 0;
-        border-right : 30px solid transparent;
-        border-bottom : 30px solid #e9afd0;
-        border-left : 30px solid transparent;
-        transform: rotate(0.25turn);
-       }
-       #triangle-code-violet{
-        margin: 20px;
-        display : inline-block;
-        height : 0;
-        width : 0;
-        border-right : 30px solid transparent;
-        border-bottom : 30px solid #c2badd;
-        border-left : 30px solid transparent;
-        transform: rotate(0.25turn);
-       }
+.violet {
+  color: #c2badd;
+  font-weight: bold;
+}
+.blue {
+  color: #b9d2e2;
+  font-weight: bold;
+}
+#triangle-code-rose {
+  margin: 20px;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #e9afd0;
+  border-left: 30px solid transparent;
+  transform: rotate(0.25turn);
+}
+#triangle-code-violet {
+  margin: 20px;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #c2badd;
+  border-left: 30px solid transparent;
+  transform: rotate(0.25turn);
+}
+
+@media #{$small-down} {
+  .containerNumber {
+       font-size: 10px;
+  }
+  .number {
+      width: 80px;
+  }
+}
