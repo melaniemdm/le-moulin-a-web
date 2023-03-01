@@ -1,3 +1,5 @@
+
+@import '../../style/communs.scss';
 .realisationTitle{
     height: 600px;
 }
@@ -26,3 +28,10 @@
     opacity: 0.40;
     //border: 2px solid red;
   }
+
+  @media #{$small-down} {
+    .triangleViolet {
+      margin-top: 0px;
+         }
+
+   }
