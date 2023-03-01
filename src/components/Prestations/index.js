@@ -18,7 +18,7 @@ export default function Prestations(){
            <ul>
             <li>Web Design - Développement - Integration</li> 
             <ul></ul>
-            <li>Referencement - Suivi & modiufications (et / ou formation)</li></ul>
+            <li>Referencement - Suivi & modifications (et / ou formation)</li></ul>
         </div>
         </div>
        
