@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from "react-router-dom";
 import Presentation from './components/Presentation';
-import Bandeau from './components/Bando';
 import Number from './components/Number';
 import Realisations from './components/Realisations';
 import Prestations from './components/Prestations';
@@ -17,8 +16,7 @@ root.render(
   <React.StrictMode>
     <Router>
     <Header />
-    <Bandeau/>
-    <Number/>
+     <Number/>
    <Presentation/>
     <Realisations/>
     <Prestations/>

@@ -1,8 +1,36 @@
+@import '../style/responsive.scss';
 body {
   margin: 10px;
   background: #081f46;
-  font-family: 'Courier Prime', monospace;
+  font-family: 'roboto', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face
+{
+    font-family: 'digital_geometric', monospace;
+    src: url(../font/digital_geometric_bold.ttf);
+}
+ 
+.sectionSuivante{
+  height: 100px;
+  //background-color: yellowgreen;
+}
+
+h1{
+  text-decoration: underline;
+  font-family: 'courier', monospace; 
+}
+h3{
+  font-family: 'roboto',monospace;
+  font-weight: bold;
+}
+@media #{$small-down} {
+  h1{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 12px;
+  }
+ }

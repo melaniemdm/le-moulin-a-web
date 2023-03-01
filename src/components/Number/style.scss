@@ -1,12 +1,12 @@
 @import "../../style/communs.scss";
 .containerNumberEnsemble {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 300px;
   background-color: white;
+  //border: 2px solid red;
 }
 .containerNumber {
-  //background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,9 +34,9 @@
   display: inline-block;
   height: 0;
   width: 0;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid #e9afd0;
-  border-left: 30px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #e9afd0;
+  border-left: 40px solid transparent;
   transform: rotate(0.25turn);
 }
 #triangle-code-violet {
@@ -44,21 +44,46 @@
   display: inline-block;
   height: 0;
   width: 0;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid #c2badd;
-  border-left: 30px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #c2badd;
+  border-left: 40px solid transparent;
   transform: rotate(0.25turn);
 }
 
 @media #{$small-down} {
   .containerNumberEnsemble {
+   padding-left: 20px;
+   padding-right: 20px;
         height: 100px;
  
   }
   .containerNumber {
-       font-size: 10px;
+       font-size: 15px;
   }
   .number {
       width: 80px;
+  }
+  #triangle-code-rose {
+    margin: 20px;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #e9afd0;
+    border-left: 20px solid transparent;
+    transform: rotate(0.25turn);
+  }
+  #triangle-code-violet {
+    margin: 20px;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #c2badd;
+    border-left: 20px solid transparent;
+    transform: rotate(0.25turn);
+  }
+  .txtNumber{
+    font-size: 8px;
   }
 }

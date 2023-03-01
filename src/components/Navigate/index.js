@@ -2,9 +2,7 @@ import './style.scss';
 import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Navigate(){
-    return  <div className='containerNav'>
-        <div className="vide"></div>
-    <div className="container lime pullUp">
+    return     <div className="containerNav lime pullUp ">
     
     <nav className="navigate">
          <div className="navItem"><Link to="/accueil" className="accueil">Home</Link> </div>
@@ -14,10 +12,10 @@ export default function Navigate(){
          <div className="navItem"> <Link to="/accueil#contactMe" className="contact">Contact</Link></div>
         </nav>
     
-     
+     <div className='sectionSuivante'> </div>
     </div>
     
     
     
-            </div>
+        
 }

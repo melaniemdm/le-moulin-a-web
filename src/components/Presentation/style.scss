@@ -1,49 +1,43 @@
+@import "../../style/communs.scss";
 .presentationContainerGlobal{
-    display: flex;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: justify; 
     background-color: white;
-    padding: 50px;
+    height: 600px;
+    //border: 2px solid red;
 }
-.containerPresentation{
+#photoID{
+    width: 250px;
+    margin-right: 20px;
+}
+.containerPresentationElement{
+    background-color: yellow;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
-    width: auto;
-    height:500px;
-    }
-
-.containerImg {
-    background-color: #081f46;
-    height: 500px;
+}
+.textePresentation{
     width: 400px;
-   }
-h1{
-text-decoration: underline;
-font-weight: 100;
-font-weight: bold;
 }
-.containerPresentationTexte{
-    position: relative;
-    font-size: 18px;
-    text-align: justify;
-    margin-left: 20px;
-    height: 400px;
-    width: 500px;
+
+@media #{$small-down} {
+    .presentationContainerGlobal{
+       
+         height:auto;        
+     }
+     #photoID{
+        margin-top: 50px;
+    margin-right: 0;
+     }
+ 
+   .textePresentation{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    width: auto;
 }
-.textePresentation, h1{
-    z-index: 2;
-    position: relative;
-    margin-top: 30px;
-}
-.triangleBleu img{
-    position: relative;
-    }
-.triangleBleu{
-    position: absolute;
-    transform: rotate(90deg);
-    width: 150px;
-    margin-top: -240px;
-    margin-left: 250px;
-}
+
+  }

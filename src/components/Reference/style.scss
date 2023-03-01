@@ -1,3 +1,4 @@
+@import "../../style/communs.scss";
 .containerRef{
     display: flex;
     flex-direction: column;
@@ -6,3 +7,12 @@
     background-color: white;
     padding-top: 30px;
 }
+
+
+@media #{$small-down} {
+    #imgRef{
+      width: 100%;
+   }
+   
+  
+  }
