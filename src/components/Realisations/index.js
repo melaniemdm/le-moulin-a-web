@@ -1,9 +1,9 @@
 import './style.scss';
-// import tViolet from '../../assets/tViolet.png'
+import tViolet from '../../assets/tViolet.png'
 export default function Realisations(){
     return  <div className='realisationTitle'> 
-    <h1 className='reaTitle'>NOS REALISATIONS</h1>
-    {/* <div><img src={tViolet} alt='triangleBViolet'className='triangleViolet'></img></div> */}
+    <div className='triangleTitleRea'>  <img src={tViolet} alt='triangleBViolet'className='triangleViolet'></img><h1 className='reaTitle'>NOS REALISATIONS</h1>
+ </div>
     <div className='realist'><div className="containerRea">
       
 <div className="rea1"></div>
