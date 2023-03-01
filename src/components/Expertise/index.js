@@ -24,6 +24,6 @@ export default function Expertise(){
 </div></div>
 
 </div>
-<div className='sectionSuivante'></div>
+
     </div>
 }
