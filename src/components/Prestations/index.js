@@ -1,11 +1,11 @@
 import './style.scss';
-// import tBleu from '../../assets/tBleu.png'
+ import tBleu from '../../assets/tBleu.png'
 export default function Prestations(){
     return <div className='containerPrestations'>
         <h1>NOS PRESTATIONS</h1>
         <div className='listPresta'>
-        {/* <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta1'></img>
-        <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta2'></img> */}
+        <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta1'></img>
+        <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta2'></img>
         <div className='containerListPresta'>
             <h3>CREATION GRAPHIQUE VISUELLE</h3>
             <ul>

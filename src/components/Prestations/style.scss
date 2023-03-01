@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    padding-bottom: 50px;
    }
 .containerListPresta{
    position: relative;
@@ -16,20 +17,20 @@
     align-items: center;
     justify-content: center;
 }
-// .triangleBleuPresta1{
-//     position: absolute;
-//     transform: rotate(45deg);
-//     width: 90px;
-//     margin-left: -500px;
-//    margin-top: -250px;
-// }
-// .triangleBleuPresta2{
-//     position: absolute;
-//     transform: rotate(225deg);
-//     width: 150px;
-//     margin-bottom: -250px;
-//     margin-right: -410px;
-// }
+.triangleBleuPresta1{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 90px;
+    margin-left: -500px;
+   margin-top: -250px;
+}
+.triangleBleuPresta2{
+    position: absolute;
+    transform: rotate(225deg);
+    width: 150px;
+    margin-bottom: -200px;
+    margin-right: -410px;
+}
 
 @media #{$small-down} {
     .containerPrestations{
@@ -38,4 +39,16 @@
   li{
     font-size: 12px;
   }
+  .triangleBleuPresta1{
+       width: 50px;
+    margin-left: -300px;
+ 
+}
+.triangleBleuPresta2{
+    
+    width: 80px;
+  
+    margin-right: -260px;
+}
+
    }
