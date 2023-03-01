@@ -1,43 +1,71 @@
 @import "../../style/communs.scss";
-.presentationContainerGlobal{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: justify; 
-    background-color: white;
-    height: 600px;
-    //border: 2px solid red;
-}
-#photoID{
-    width: 250px;
-    margin-right: 20px;
-}
-.containerPresentationElement{
-    background-color: yellow;
-    display: flex;
-}
-.textePresentation{
-    width: 400px;
+.presentationContainerGlobal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  background-color: white;
+  height: 600px;
+  //border: 2px solid red;
 }
 
+#photoID {
+  width: 300px;
+  margin-right: 20px;
+}
+.containerPresentationElement {
+  background-color: yellow;
+  display: flex;
+}
+.titlePresentation {
+  z-index: 3;
+  position: relative;
+  //border: 2px solid red;
+  width: 100%;
+}
+.textePresentation {
+  width: 400px;
+}
+.triangleTitle {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+ // border: 2px solid rgb(255, 0, 247);
+  height: 130px;
+  align-items: center;
+}
+.triangleBleu {
+  z-index: 1;
+  position: relative;
+  transform: rotate(0.25turn);
+  margin-left: -200px;
+  width: 120px;
+  //border: 2px solid red;
+}
 @media #{$small-down} {
-    .presentationContainerGlobal{
-       
-         height:auto;        
-     }
-     #photoID{
-        margin-top: 50px;
+  .presentationContainerGlobal {
+    height: auto;
+  }
+  #photoID {
+    margin-top: 50px;
     margin-right: 0;
-     }
- 
-   .textePresentation{
+  }
+
+  .textePresentation {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     font-size: 10px;
     width: auto;
-}
-
   }
+  .triangleTitle {
+    text-align: center;
+  }
+  .triangleBleu {
+    margin-left: -230px;
+    width: 90px;
+    //border: 2px solid red;
+  }
+}
