@@ -1,8 +1,8 @@
 import './style.scss';
  import tBleu from '../../assets/tBleu.png'
 export default function Prestations(){
-    return <div className='containerPrestations'>
-        <h1>NOS PRESTATIONS</h1>
+    return <div className='containerPrestations' id='services'>
+        <h1>Nos prestations</h1>
         <div className='listPresta'>
         <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta1'></img>
         <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta2'></img>

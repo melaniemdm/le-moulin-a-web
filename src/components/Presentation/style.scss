@@ -1,11 +1,12 @@
-@import "../../style/communs.scss";
+@import '../../style/communs.scss';
+
 .presentationContainerGlobal {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+  text-align: left;
   background-color: white;
   height: 600px;
   //border: 2px solid red;
@@ -24,6 +25,7 @@
   position: relative;
   //border: 2px solid red;
   width: 100%;
+  
 }
 .textePresentation {
   width: 400px;
@@ -37,7 +39,9 @@
   height: 130px;
   align-items: center;
 }
+
 .triangleBleu {
+  //border: 2px solid red;
   z-index: 1;
   position: relative;
   transform: rotate(0.25turn);

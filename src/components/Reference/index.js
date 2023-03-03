@@ -3,7 +3,7 @@ import './style.scss';
 
 export default function Reference(){
     return <div className='containerRef'>
-        <h1>ILS NOUS ONT FAIT CONFIANCE</h1>
+        <h1>Ils nous ont fait confiance</h1>
         <img src={ref} alt="ref" id='imgRef'></img>
     </div>
 }

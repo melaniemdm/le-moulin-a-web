@@ -1,6 +1,7 @@
 import logo from '../../assets/logo.png';
 import './style.scss';
 import Navigate from '../Navigate';
+import ScrollToTop from 'react-scroll-to-top';
 
 export default function Header(){
     return (
@@ -11,6 +12,7 @@ export default function Header(){
               
             </div>
             <Navigate/>
+            <ScrollToTop/>
         </header>
     )
 }
