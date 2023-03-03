@@ -1,4 +1,5 @@
-@import '../style/responsive.scss';
+@import './responsive.scss';
+
 body {
   margin: 10px;
   background: #081f46;
@@ -9,8 +10,8 @@ body {
 
 @font-face
 {
-    font-family: 'digital_geometric', monospace;
-    src: url(../font/digital_geometric_bold.ttf);
+    font-family: 'digital_geometric';
+    src: url('../font/digital_geometric_bold.ttf');
 }
  
 .sectionSuivante{

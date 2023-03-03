@@ -5,8 +5,8 @@ export default function Bando(){
         
         <div className="defileParent">
 <span className="defile" id="txtBando"
-data-text=" Digital o Création o web o graphisme  "> 
-Digital o Création o Web o Graphisme
+data-text=" Digital o Création o Web o Graphisme o  &emsp; "> 
+ &emsp; Digital o Création o Web o Graphisme o
 </span>
 </div>
 </div>

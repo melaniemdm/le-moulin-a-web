@@ -7,6 +7,7 @@
    	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 /* Texte défilant */
@@ -18,6 +19,7 @@
 	table-layout: fixed;
 	//width: 700px;
   //max-width:100%;
+ 
 }
 .defile {
 	display:block;
@@ -31,6 +33,8 @@
 	text-align:left;
   font-size:50px;
 	white-space:nowrap;
+	font-family: digital_geometric, monospace;
+	//background-color: red;
 }
 
 
