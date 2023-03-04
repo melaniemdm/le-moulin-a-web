@@ -7,14 +7,14 @@ export default function Prestations(){
         <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta1'></img>
         <img src={tBleu} alt='triangleBleu'className='triangleBleuPresta2'></img>
         <div className='containerListPresta'>
-            <h3>CREATION GRAPHIQUE VISUELLE</h3>
+            <h3>Création d’identité visuelle</h3>
             <ul>
             <li>Logo - Couleurs - Typographie - Charte graphique</li></ul>
-            <h3>CREATION GRAPHIQUE</h3>
+            <h3>Création graphique</h3>
             <ul>
-            <li>Outils de communication - Affiches - Brochures</li>
-            <li><strong>Et / ou Web :</strong> infigraphie - Newsletter - Bannière pub</li></ul>
-            <h3>SITE INTERNET</h3>
+            <li>Création d’outils de communication </li>
+            <li><strong>Et / ou Web :</strong> infographie - Newsletter - Bannière pub</li></ul>
+            <h3>Site internet</h3>
            <ul>
             <li>Web Design - Développement - Integration</li> 
             <ul></ul>
