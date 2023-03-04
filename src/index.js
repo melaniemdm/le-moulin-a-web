@@ -10,18 +10,20 @@ import Realisations from './components/Realisations';
 import Prestations from './components/Prestations';
 import Expertise from './components/Expertise';
 import Reference from './components/Reference';
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-    <Header />
+    <Header />  <Contact/>
      <Number/>
    <Presentation/>
     <Realisations/>
     <Prestations/>
     <Expertise/>
     <Reference/>
+  
     </Router>
   </React.StrictMode>
 );

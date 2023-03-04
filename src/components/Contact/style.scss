@@ -1,0 +1,35 @@
+@import "../../style/communs.scss";
+
+.containerContact {
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  position: fixed;
+   width: 100vw;
+  height: 100vh;
+  background-color:  rgba(8,31,70, 0.5);
+}
+.KLYMH {
+  margin: 0;
+}
+.containerForm {
+ 
+  /* Ajouter box-sizing */
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px;
+   /* redéfinition 400 + 2*20 */
+ width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  color: #6b95b2;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 925px;
+}
