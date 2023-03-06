@@ -32,23 +32,24 @@
   }
   //galery
   #flexbox {
-    display: flex;
+   display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0 4px;
     margin-bottom: 30px;
   }
   
+
   .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
-  
+ 
   .column img {
     vertical-align: middle;
-    margin-top: 8px;
-    filter: grayscale(70%);
+   margin-top: 8px;
+    
   }
   
   .column:nth-child(even) {

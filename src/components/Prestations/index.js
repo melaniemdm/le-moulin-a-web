@@ -9,16 +9,16 @@ export default function Prestations(){
         <div className='containerListPresta'>
             <h3>Création d’identité visuelle</h3>
             <ul>
-            <li>Logo - Couleurs - Typographie - Charte graphique</li></ul>
-            <h3>Création graphique</h3>
+            <li>Logo, Typographie, Charte couleurs et Charte graphique</li></ul>
+            <h3>Création d'outils de communication</h3>
             <ul>
-            <li>Création d’outils de communication </li>
-            <li><strong>Et / ou Web :</strong> infographie - Newsletter - Bannière pub</li></ul>
+            <li>Brochure, Catalogue, flyer, carte de visite etc.</li>
+            <li><strong>Et / ou Web :</strong> Infographie, Newsletter, Bannière pub</li></ul>
             <h3>Site internet</h3>
            <ul>
-            <li>Web Design - Développement - Integration</li> 
+            <li>Web Design, développement, intégration</li> 
             <ul></ul>
-            <li>Referencement - Suivi & modifications (et / ou formation)</li></ul>
+            <li>Référencement, suivi & modifications (et/ou formation)</li></ul>
         </div>
         </div>
        
