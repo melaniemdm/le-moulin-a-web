@@ -2,6 +2,14 @@
 .containerLogo {
   text-align: center;
 }
+header{
+  top: 0;
+  width:100%;
+  background:#081f46;
+  color: white;
+  position:fixed;
+  z-index:100;
+}
 #logo{
   margin-top:30px;
   margin-bottom:30px;
