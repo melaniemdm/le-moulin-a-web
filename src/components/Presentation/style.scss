@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  text-align: left;
+  
   background-color: white;
   height: 600px;
   //border: 2px solid red;
@@ -21,8 +21,10 @@
   display: flex;
 }
 .titlePresentation {
+ 
   z-index: 3;
-  position: relative;
+ display: flex;
+ justify-content: flex-start;
   //border: 2px solid red;
   width: 100%;
   
@@ -30,6 +32,7 @@
 .textePresentation {
   width: 400px;
   line-height: 1.7;
+  font-family: 'Roboto',monospace;
 }
 .triangleTitle {
   position: relative;

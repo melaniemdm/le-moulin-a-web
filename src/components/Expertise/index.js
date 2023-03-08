@@ -6,7 +6,7 @@ export default function Expertise(){
 <div className='expertiseDetail'>
     <div className='bloc1'>
     <div className='expertise1'>
-    <h3 className='expertiseTitleDetail'>DESIGN GRAPHIQUE </h3>
+    <h3 className='expertiseTitleDetail'>DIRECTION ARTISTIQUE </h3>
     <div className='txtExpertise'>Des <strong>designers graphiques expérimentés </strong>capables de créer des logos, des graphiques, des illustrations et des designs pour l'identité visuelle.</div>
 </div>
 <div className='expertise1'>

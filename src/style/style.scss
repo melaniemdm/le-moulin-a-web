@@ -3,7 +3,6 @@
 body {
   margin: 10px;
   background: #081f46;
-  font-family: 'Roboto', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,14 +26,14 @@ body {
 }
 
 h1{
+  font-weight: lighter;
   text-transform : uppercase;
-  font-family: 'courier', monospace; 
- text-decoration: underline;
+  font-family: 'courier',monospace; 
+ 
 }
 h3{
   text-transform : uppercase;
-  font-family: 'Roboto',monospace;
-}
+ }
 @media #{$small-down} {
   h1{
     font-size: 20px;
