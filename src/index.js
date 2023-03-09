@@ -11,7 +11,7 @@ import Prestations from './components/Prestations';
 import Expertise from './components/Expertise';
 import Reference from './components/Reference';
 import Contact from './components/Contact';
-
+import Footer from './components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -23,7 +23,7 @@ root.render(
     <Prestations/>
     <Expertise/>
     <Reference/>
-  
+  <Footer/>
     </Router>
   </React.StrictMode>
 );
