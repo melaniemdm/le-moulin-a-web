@@ -1,11 +1,12 @@
 @import "../../style/communs.scss";
 
 .containerContact {
+  padding-top: 340px;
+  margin-bottom: 50px;
   display: none;
-  top: 0;
-  left: 0;
+   left: 0;
   z-index: 5;
-  position: fixed;
+ //position: fixed;
    width: 100vw;
   height: 100vh;
   background-color:  rgba(8,31,70, 0.5);

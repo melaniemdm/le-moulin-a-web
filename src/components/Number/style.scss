@@ -1,6 +1,6 @@
 @import "../../style/communs.scss";
 .containerNumberEnsemble {
-  
+    font-family: 'courier',monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,6 @@
 }
 .txtNumber{
    width: 240px;
-  font-family: 'courier',monospace;
   color:#081f46;
   font-weight: bold;
 }
