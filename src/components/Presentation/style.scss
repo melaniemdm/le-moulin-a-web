@@ -53,6 +53,9 @@
   //border: 2px solid red;
 }
 @media #{$small-down} {
+  #presentation{
+    margin-top: -260px;
+  }
   .presentationContainerGlobal {
     height: auto;
     padding-top: 250px;
