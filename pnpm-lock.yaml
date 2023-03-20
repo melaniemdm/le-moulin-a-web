@@ -9,6 +9,7 @@ specifiers:
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
   gh-pages: ^5.0.0
+  mdm-simple-modal: ^2.0.22
   node-sass: ^8.0.0
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -27,6 +28,7 @@ dependencies:
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 13.5.0_yxlyej73nftwmh2fiao7paxmlm
+  mdm-simple-modal: 2.0.22_react@18.2.0
   node-sass: 8.0.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -7281,6 +7283,15 @@ packages:
   /map-obj/4.3.0:
     resolution: {integrity: sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==}
     engines: {node: '>=8'}
+    dev: false
+
+  /mdm-simple-modal/2.0.22_react@18.2.0:
+    resolution: {integrity: sha512-Zox94VhpRrTNUbH7rcGJv4L/2UBcmEPcKBIC+VThVbl+dKaakKWOzvJ9lLKK3L1Kq0XyAtjA+pqS/oHWXs1p0g==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /mdn-data/2.0.14:
