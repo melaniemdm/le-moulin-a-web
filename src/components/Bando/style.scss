@@ -10,63 +10,44 @@
 	//placement bando sous le header fixe
 	margin-top: 230px;
 }
-
-/* Texte défilant */
-.defileParent {
-	display: block;
-	//margin: 3em auto;
-	overflow: hidden;
-	position: relative;
-	table-layout: fixed;
-	//width: 700px;
-  //max-width:100%;
+/* Défilement de droite à gauche */
+.marquee-rtl {
+	overflow: hidden; /* important */
+	width:auto;  /* A ADAPTER */
+  }
+  .marquee-rtl > img {
+	display: inline-block; /* important */
+	white-space: nowrap; /* important */
+	animation: defilement-rtl 20s infinite linear; /* défilement */
+	cursor: pointer;
+	padding: 10px 2em 10px 100%;
+  }
  
-}
-.defile {
-	display:block;
-	-webkit-animation:linear marqueelike 15s infinite ;
-	-moz-animation:linear marqueelike 15s infinite ;
-	-o-animation:linear marqueelike 15s infinite ;
-	-ms-animation:linear marqueelike 15s infinite ;
-	animation:linear marqueelike 15s infinite ;
-	margin-left:-100%;
-	padding:0 5px;
-	text-align:left;
-  font-size:50px;
-	white-space:nowrap;
-	font-family: digital_geometric, monospace;
-	//background-color: red;
-}
+  .marquee-rtl > img:first-letter {
+	font-weight: 700;
+	
+  }
+  @keyframes defilement-rtl {
+	0% {
+	  -webkit-transform: translate(0);
+	  transform: translate(0);
+	}
+	100% {
+	  -webkit-transform: translate(-100%);
+	  transform: translate(-100%);
+	}
+  }
+  /* ---------------------------- */
+  /* texte sur plusieurs lignes automatiquement */
+  .marquee-multi-lignes > img { 
+	width:90%; 
+	white-space: normal; /* important */
+  }
 
 
-.defile:after {
-	content:attr(data-text);
-	position:absolute;
-	white-space:nowrap;
-	padding-left:10px;
-}
 
-@-webkit-keyframes marqueelike {
-	0%, 100% {margin-left:0;}
-	99.99% {margin-left:-100%;}
- }
-@-moz-keyframes marqueelike {
-	0%, 100% {margin-left:0;}
-	99.99% {margin-left:-100%;}
- }
-@-o-keyframes marqueelike {
-	0%, 100% {margin-left:0;}
-	99.99% {margin-left:-100%;}
- }
-@-ms-keyframes marqueelike {
-	0%, 100% {margin-left:0;}
-	99.99% {margin-left:-100%;}
- }
-@keyframes marqueelike {
-	0%, 100% {margin-left:0;}
-	99.99% {margin-left:-100%;}
- }
 
+ 
  @media #{$small-down} {
 .defile {
 		  font-size:20px;

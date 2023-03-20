@@ -20,7 +20,12 @@ body {
     src: url('../font/Roboto-Regular.ttf');
     
 }
-
+@font-face
+{
+    font-family: 'courierPrime';
+    src: url('../font/CourierPrime-Regular.ttf');
+    
+}
 
 h1{
   font-weight: lighter;
