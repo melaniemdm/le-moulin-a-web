@@ -36,7 +36,7 @@ console.log(pictureProjet)
       
       <div className="column">
  <a href='https://melaniemdm.github.io/testOn/' target="_blank" rel='noreferrer'>  <img src={img2} alt="Image1" width="100%" /></a>
- <SimpleModal text='' options={{bgColor:'white',width:'95%',height:'95%', imgUrl:pictureProjet, zIndex:'110'}}/> <img src={img6} alt="Image2" width="100%" onClick={()=>urlModal(dsn)}/>
+ <SimpleModal text='' options={{bgColor:'white',width:'50%',height:'95%', imgUrl:pictureProjet, zIndex:'110',  maskBgColor:'rgba(211,211,211, .5)'}}/> <img src={img6} alt="Image2" width="100%" onClick={()=>urlModal(dsn)}/>
     <a href='https://intelligence-canine.fr/' target="_blank" rel='noreferrer'>  <img src={img3} alt="Image3" width="100%" /></a> 
       
      

@@ -10,8 +10,7 @@
 .txtNumber{
    width: 240px;
   color:#081f46;
-  font-weight: bold;
-}
+ }
 .containerNumber {
   display: flex;
   align-items: center;
@@ -31,7 +30,15 @@
   font-size: 39px;
   font-family: 'digital_geometric',monospace ;
 }
-
+.rose{
+  color: #e9afd0;
+}
+.violet{
+  color: #c2badd;
+}
+.blue{
+  color: #b9d2e2;
+}
 #triangle-code-rose {
   margin: 20px;
   display: inline-block;
