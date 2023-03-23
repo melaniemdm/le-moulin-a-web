@@ -1,6 +1,6 @@
 import './style.scss'
 import tBleu from'../../assets/tBleu.png';
-import photo from '../../assets/test.jpg'
+import photo from '../../assets/nous.png'
 
 export default function Presentation(){
     return <div className="presentationContainerGlobal" id='presentation'>
